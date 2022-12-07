@@ -2,6 +2,43 @@ body {
   background: #C0C0C0;
 }
 
+header {
+	background: #001f36;
+	padding: 20px 0;
+}
+
+.caixa {
+	position: relative;
+	width: 1200px;
+	margin: 0 auto;
+}
+
+nav {
+	position: absolute;
+	top: 110px;
+	right: 0;
+
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #C78C19;
+	font-size: 30px;
+	text-decoration: underline;
+}
+
 h2 {
   font-size: 50px;
   color: blue;
